@@ -11,7 +11,7 @@ RUN git clone https://github.com/flutter/flutter.git /usr/local/flutter \
     && cd /usr/local/flutter \
     && git checkout tags/${FLUTTER_VERSION}
 
-ENV PATH="/usr/local/flutter/bin:/usr/local/flutter/bin/cache/dart-sdk/bin:${PATH}"
+ENV PATH="/usr/amer_/flutter/bin:/usr/local/flutter/bin/cache/dart-sdk/bin:${PATH}"
 
 # Enable Flutter Web
 RUN flutter doctor
